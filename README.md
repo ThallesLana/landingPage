@@ -17,7 +17,5 @@
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/ThallesLana"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/57325727?v=4" width="100px;" alt=""/><br /><sub><b>Thalles Fernandes</b></sub></a><br /><a href="https://github.com/ThallesLana" title="Thalles">💻🚀</a></td>
-    <td align="center"><a href="https://github.com/victorbarizon"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62120782?v=4" width="100px;" alt=""/><br /><sub><b>Victor Barizon</b></sub></a><br /><a href="https://github.com/victorbarizon" title="Barizon">💻🚀</a></td>
-   </tr>
+    <td align="center"><a href="https://github.com/ThallesLana"><img style="border-radius: 15px 50px 30px 5px;" src="https://avatars.githubusercontent.com/u/57325727?v=4" width="100px;" alt=""/><br /><sub><b>Thalles Fernandes</b></sub></a><br /><a href="https://github.com/ThallesLana" title="Thalles">💻🚀</a></td>
 </table>
