@@ -42,6 +42,16 @@ body {
     font-size: 18px;
 }
 
+.header-menu-item:hover{
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
 .main{
     margin-bottom: 48px;
     border-top: 0.4px solid aliceblue;
