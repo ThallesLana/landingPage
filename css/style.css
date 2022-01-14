@@ -42,6 +42,19 @@ body {
     font-size: 18px;
 }
 
+<<<<<<< HEAD
+=======
+.header-menu-item:hover{
+    display: flex;
+    gap: 32px;
+    font-family: 'Sarala', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+>>>>>>> f62a95ba60994615db5a4740813ca16f49b3e873
 .main{
     margin-bottom: 48px;
     border-top: 0.4px solid aliceblue;
@@ -146,6 +159,7 @@ body {
     height: 250px;
     display: block;
     margin: 0 auto;
+<<<<<<< HEAD
 }
 
 /*
@@ -185,4 +199,6 @@ body {
     width: auto; 
     max-width: 500px; 
     max-height: 500px;
+=======
+>>>>>>> f62a95ba60994615db5a4740813ca16f49b3e873
 }
