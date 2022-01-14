@@ -157,3 +157,32 @@ body {
     color: grey;
 }
 
+.main-informations-tech{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-informations-write-tech{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.main-informations-write-title-tech{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: aliceblue;
+}
+
+.main-img-tech{
+    height: 480px; 
+    width: auto; 
+    max-width: 500px; 
+    max-height: 500px;
+}
