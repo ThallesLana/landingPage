@@ -1,62 +1,83 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Landing Page building for Thalles Fernandes">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <title>Thalles Fernandes - Graphic Designer and Developer</title>
-</head>
-<body>
-
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <title>Thalles Fernandes - Graphic Designer and Developer</title>
-</head>
-<body class="container">
-    <!-- Header -->
-    <header class="header">
-        <a href="index.html"><img class="header-img" src="images/logo.png" alt="Thalles Fernandes Picture"></a>
-        <nav class="header-menu">
-            <a class="header-menu-item disabled" href="index.html">Home</a>
-            <a class="header-menu-item" href="tech.html">Technologies</a>
-            <a class="header-menu-item">Social Networks</a>
-            <a class="header-menu-item">About</a>
-
-            <a class="header-menu-item" href="index.html">Home</a>
-            <a class="header-menu-item" href="tech.html">Technologies</a>
-            <a class="header-menu-item" href="networks.html">Social Networks</a>
-            <a class="header-menu-item" href="about.html">About</a>
-        </nav>
-    </header>
-    <!-- Main -->
-    <main class="main">
-        <section class="main-informations">
-            <div class="main-informations-write">
-                <h1 class="main-informations-write-title">
-                    Thalles Fernandes de Lana
-                </h1>
-                <h2 class="main-informations-write-description">
-                    Graphic Designer, Web and Mobile Developer!
-                </h2>
-                <a href="https://github.com/ThallesLana" target="_blank"><button class="main-informations-button">Check out my projects!</button></a>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Landing Page building for Thalles Fernandes">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <title>Thalles Lana</title>
+    </head>
+    <body class="container">
+        <!-- Header -->
+        <header class="header">
+            <div >
+                <a href="index.html">
+                    <img class="header-img" src="images/logo.png" alt="TFL Logo - Symbol of Thalles Fernandes de Lana">
+                </a>
             </div>
-            <img class="main-img" src="images/programming.svg" alt="img Programming">
-        </section>
-        
-        <section class="main-additional-informations">
-            <h3 class="main-additional-informations-title">
-                What Services are Provided?
-            </h3>
-            <p class="main-additional-informations-topic">- Creation of promotional art, logos, banners and visual identity for your brand, All using <strong>Photoshop</strong>.</p>
-            <p class="main-additional-informations-topic"><strong>- Web Development</strong> using <strong>Laravel</strong> on the back-end and <strong>Vue.js</strong> on the front-end.</p>
-            <p class="main-additional-informations-topic">- Native Android <strong>Mobile Development</strong> in <strong>Java</strong> and hybrid using <strong>Flutter</strong>.</p>
-        </section>
-    </main>
-    <!-- Footer -->
-    <footer class="footer">
-        <img class="footer-img" src="images/logo.png" alt="Thalles Fernandes">
-    </footer>
-</body>
+        </header>
+        <!-- Main -->
+        <main class="main">
+            <section class="main-informations col col-xs-12 col-md-12 col-lg-12">
+                <div class="main-informations-write col col-xs-12 col-md-6 col-lg-6">
+                    <h1 class="title">
+                        Thalles Fernandes de Lana
+                    </h1>
+                    <h2 class="description">
+                        Olá, meu nome é Thalles e sou especializado em desenvolvimento web Full Stack com HTML5, CSS3, JavaScript, jQuery, PHP, Laravel e MySQL. Tenho muita ambição quanto a minha carreira e sempre estou em buscar de ampliar meus conhecimentos.
+                    </h2>
+                </div>
+                <div class="main-informations-profile-photo col col-xs-12 col-md-6 col-lg-6">
+                    <img class="main-img" src="images/profile.jpeg" alt="profile image">
+                </div>
+            </section>
+
+            <section class="main-additional-informations col col-xs-12 col-md-12 col-lg-12">
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="main-additional-informations-title">
+                        Tecnologias que domino
+                    </h3>
+                    <div class="techsDomains">
+                        <i class="iconsDomains fab fa-html5" title="HTML5"></i>
+                        <i class="iconsDomains fab fa-css3-alt" title="CSS3"></i>
+                        <i class="iconsDomains fab fa-js-square" title="JavaScript"></i>
+                        <i class="iconsDomains fas fa-database" title="MySQL"></i>
+                        <i class="iconsDomains fab fa-php" title="PHP"></i>
+                        <i class="iconsDomains fab fa-laravel" title="Laravel"></i>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <h3 class="main-additional-informations-title">
+                        Tecnologias que tenho conhecimento mas não domino
+                    </h3>
+                    <div class="techsDomains">
+                        <i class="iconsDomains fab fa-react" title="ReactJS"></i>
+                        <i class="iconsDomains fab fa-angular" title="Angular"></i>
+                        <i class="iconsDomains fab fa-python" title="Python"></i>
+                        <i class="iconsDomains fab fa-java" title="Java"></i>
+                        <i class="iconsDomains fab fa-node-js" title="NodeJS"></i>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer class="footer">
+            <section>
+                <h3 class="main-additional-informations-title">
+                    Entre em contato
+                </h3>
+                <div class="col-xs-12 col-md-12 col-lg-12">
+                    <div class="techsDomains">
+                        <a href="https://www.linkedin.com/in/thalles-lana/" target="_blank"><i class="iconsFooter fab fa-linkedin" title="LinkedIn"></i></a>
+                        <a href="mailto:thalles.lana1@gmail.com" target="_blank"><i class="iconsFooter fas fa-envelope" title="Gmail"></i></a>
+                        <a href="https://github.com/ThallesLana" target="_blank"><i class="iconsFooter fab fa-github" title="Github"></i></a>
+                    </div>
+                </div>
+            </section>
+        </footer>
+    </body>
 </html>

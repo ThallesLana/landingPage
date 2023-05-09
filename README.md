@@ -2,10 +2,10 @@
 
 # 👨‍💻 Landing Page - Thalles Fernandes de Lana
 
-### Landing Page created to present my projects and promote my profile. Created based on the landingPage project made by Rafaella Ballerini.
+### Landing Page created to present my projects and promote my profile.
 
 # ✅ Project Status:
-### 🚧 in maintenance! 🚧
+### ✅ Done! ✅
 
 # 💻 Languages and Tools used in the project:
 [![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
