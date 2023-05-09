@@ -133,6 +133,7 @@ a {
     border-top: 0.025rem solid aliceblue;
     padding: 2rem;
 }
+
 @media (max-width: 767px) {
     .main-informations-write {
         text-align: center;
